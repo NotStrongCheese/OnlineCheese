@@ -17,25 +17,40 @@
         <span>Cheese: </span><span id="CheeseCount">0</span><span>lbs</span>
         <br>
         <span>Milk: </span><span id="MilkCount">50</span><span>gals</span>
+		<br>
+        <span>Chocolate Milk: </span><span id="ChocoMilkCount">0</span><span>gals</span>
         <br>
-        <button onclick="MakeCheeseFunc()">Make cheese</button>
+        <button onclick="MakeCheeseFunc()">Make Cheese</button>
     </div>
     <br>
     <div class="Line"></div>
     <br>
-    <div id="DisplayDiv">
-        <span>Cows: </span><span id="CowCount">1</span>
-        <br>
-        <button onclick="MilkCowFunc()">Milk cow</button>
-        <br>
-        <button onclick="BuyCowFunc()">Buy cow</button><span> Cost: </span><span id="PriceCow">10</span><span>lb of cheese</span>
-    </div>
+	<div class="CowDiv">
+		<div id="DisplayDiv">
+			<span>Cows: </span><span id="CowCount">1</span>
+			<br>
+			<button onclick="MilkCowFunc()">Milk Cow</button>
+			<br>
+			<button onclick="BuyCowFunc()">Buy Cow</button><span> Cost: </span><span id="PriceCow">10</span><span>lb of cheese</span>
+		</div>
+		<div id="DisplayDiv">
+			<span>Chocolate Cows: </span><span id="ChocoCowCount">0</span>
+			<br>
+			<button onclick="MilkChocoCowFunc()">Milk Chocolate Cow</button>
+			<br>
+			<button onclick="BuyChocoCowFunc()">Buy Chocolate Cow</button><span> Cost: </span><span id="PriceChocoCow">100</span><span>lb of cheese</span>
+		</div>
+	</div>
     <br>
     <div class="Line"></div>
     <br>
-    <div id="DisplayDiv">
-        <span>Cheese/second: </span><span id="CheesePerSecond"></span>
-    </div>
+		<div id="DisplayDiv">
+			<span>Cheese/second: </span><span id="CheesePerSecond"></span>
+			<br>
+			<span>CheeseMakers: </span><span id="CheeseMakerCount">0</span>
+			<br>
+			<button onclick="BuyCheeseMakerFunc()">Buy CheeseMaker</button><span> Cost: </span><span id="PriceCheeseMaker">20</span><span>lb of cheese</span>
+		</div>
 
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
