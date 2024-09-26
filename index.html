@@ -1,1 +1,43 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes</title>
+</head>
+<body>
+    <div id="DisplayDiv">
+        <span>Time left: </span><span id="TimeLeft">300</span><span>s</span>
+    </div>
+    <br>
+    <div class="Line"></div>
+    <br>
+    <div id="DisplayDiv">
+        <span>Cheese: </span><span id="CheeseCount">0</span><span>lbs</span>
+        <br>
+        <span>Milk: </span><span id="MilkCount">50</span><span>gals</span>
+        <br>
+        <button onclick="MakeCheeseFunc()">Make cheese</button>
+    </div>
+    <br>
+    <div class="Line"></div>
+    <br>
+    <div id="DisplayDiv">
+        <span>Cows: </span><span id="CowCount">1</span>
+        <br>
+        <button onclick="MilkCowFunc()">Milk cow</button>
+        <br>
+        <button onclick="BuyCowFunc()">Buy cow</button><span> Cost: </span><span id="PriceCow">10</span><span>lb of cheese</span>
+    </div>
+    <br>
+    <div class="Line"></div>
+    <br>
+    <div id="DisplayDiv">
+        <span>Cheese/second: </span><span id="CheesePerSecond"></span>
+    </div>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</body>
+</html>

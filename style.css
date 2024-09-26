@@ -1,0 +1,52 @@
+body {
+    background-color: #202028;
+    color: #fff;
+    font-family: monospace;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    cursor: default;
+}
+
+#DisplayDiv {
+    font-weight: 900;
+    font-size: larger;
+    line-height: 175%;
+}
+
+button {
+    border: none;
+    outline-style: solid;
+    outline-color: #808080;
+    outline-width: 4px;
+    border-radius: max(1vw, 1vh);
+    background-color: #202028;
+    color: #fff;
+}
+
+button:hover {
+    border: none;
+    outline-style: solid;
+    outline-color: #b0b0b0;
+    outline-width: 4px;
+    border-radius: max(1vw, 1vh);
+    background-color: #808080;
+    color: #fff;
+}
+
+button:active {
+    border: none;
+    outline-style: solid;
+    outline-color: #808080;
+    outline-width: 4px;
+    border-radius: max(1vw, 1vh);
+    background-color: #202028;
+    color: #888;
+}
+
+.Line {
+    width: calc(100% - 8px);
+    height: 2px;
+    background-color: #808080;
+    display: block;
+}
